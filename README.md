@@ -1,9 +1,5 @@
 # Lights Out Plugin for JW Player
-Lights toggle in controlbar. 
-
-Requirement: 
-  - Font Awesome
-  - JW Player 6 or 7
+Lights toggle in control bar.
 
 Screenshot:
 

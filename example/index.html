@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lights Out Plugin for JW Player</title>
+<link href="../src/lightsout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://ssl.p.jwpcdn.com/player/v/7.3.6/jwplayer.js?v=7.3.6"></script>
+</head>
+<body>
+<div id="player"></div>
+<script>
+jwplayer.key = 'iZaBV7cW7mBl61yIWCTK3IUeA1jqZjIUo28r0w==';
+
+jwplayer('player').setup({
+	file: 'https://content.jwplatform.com/videos/HkauGhRi-640.mp4',
+	width: '35%',
+	aspectratio: '16:9',
+	plugins: {
+		'../src/lightsout.js':{}
+	},
+});
+</script>
+</body>
+</html> 
